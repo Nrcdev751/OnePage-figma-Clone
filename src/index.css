@@ -10,10 +10,13 @@
     --white-colour- : #ffff;
     --blob-colour- :#E7ECFF;
     --second-colour- : #5D6970;
-
+    --paragraph-colour- : #6F7CB2;
     
 }
 
+*{
+    box-sizing: border-box;
+}
 
 .logo{
     font-size: 26px;
@@ -60,7 +63,7 @@
 
 
 .section-header{
-    height: 720px;
+    min-height: 300px;
     display: flex;
     align-items: center;
 }
@@ -93,6 +96,7 @@
     }
     .container {
         max-width: 1110px; 
+        height: auto;
         margin: 0 auto;    
         box-sizing: border-box; 
     }
@@ -123,7 +127,6 @@
 @media only screen and (max-width: 767px){
 
     .hero-pattern{
-        height: 100vh;
         background-image: none;
         background-repeat: no-repeat;
         background-position: right;
@@ -146,7 +149,7 @@
         max-width: auto; 
         margin: 0 auto;    
         box-sizing: border-box; 
-        padding-inline:5px ;
+        padding-inline: 5px ;
     }
     .nav-sm-menu li{
         font-size: 14px;
@@ -163,6 +166,15 @@
         padding-top: 4px;
         padding-bottom: 4px;
         border-radius: 2px;
+    }
+    .sec-btn ,.main-btn , button {
+        width: 100%;
+        max-width: none !important;
+    }
+    .header-content{
+      
+        max-width: none;
+     
     }
 }
 
@@ -186,9 +198,59 @@
     max-height: 36px;
     border: solid var(--btn-main-colour-);
     color: var(--btn-main-colour-);
-    padding-inline: 55px;
+    padding-inline: 63px;
     padding-top: 4px;
     padding-bottom: 4px;
     border-radius: 2px;
     box-sizing: border-box;
+}
+/* Content Section */
+.content-topic{
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--main-blue-colour-700-);
+    font-weight: 600;
+}
+
+.content-1-describe{
+    margin-top: 50px;
+}
+
+.content-paragraph{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--paragraph-colour-);
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.content-choice{
+    margin-top: 80px;
+}
+
+
+.content-choice-group img{
+    max-width: 36px;
+    max-height: 36px;
+}
+
+.content-choice-group h1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+.content-choice-group p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--second-colour-);
+    max-width: 240px;
+}
+
+.content-choice-group ,h1, p{
+    margin-top: 10px;
+}
+
+.content-1-img img{
+    width: 100%;
 }

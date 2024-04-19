@@ -47,7 +47,8 @@ function Header(){
             }
                     <div className="section-header">
                         <div className="header-about">
-                            <img src={hero_img} className="flex md:hidden hero-img" alt="" />
+                            <br /><br /><br /><br />
+                            <img src={hero_img} className="flex float-end md:hidden hero-img  w-80 h-80 " alt="" />
                             <p className="header-topic">Introduce Your Product Quickly & Effectively</p>
                             <p className="header-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
                             Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
@@ -60,7 +61,7 @@ function Header(){
                                     Purchase UI Kit
                                 </button>
                             </div>
-                            <div className="sec-btn mx-2 mt-5">
+                            <div className="sec-btn md:mx-2 mt-5">
                                 <button>
                                     Learn More
                                 </button>
@@ -72,6 +73,7 @@ function Header(){
                 </div>
                 
              </section>
+             
              
         </>
     )
