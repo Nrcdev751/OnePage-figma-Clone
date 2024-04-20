@@ -21,9 +21,9 @@ function Header(){
                             </button>
                         </div>
                         <ul className="nav-menu">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Contact</li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
                         </ul>
                         <div className="nav-logo">
                             <p className="logo">Landing</p>
