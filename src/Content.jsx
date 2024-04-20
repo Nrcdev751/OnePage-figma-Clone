@@ -97,10 +97,10 @@ function Content(){
                                     montes, nascetur ridiculus </p>
                                     <p className="content-paragraph">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
                                     <div className="main-btn mt-5">
-                                    <button>
-                                        Purchase UI Kit
-                                    </button>
-                            </div>
+                                        <button>
+                                            Purchase UI Kit
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                             
